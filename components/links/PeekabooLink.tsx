@@ -11,7 +11,7 @@ import { HoverCard } from '~/components/ui/HoverCard'
 import { makeBlurDataURL } from '~/lib/image'
 
 // 改成 false 就可以关闭链接预览快照图了
-const supportsPreview = true
+const supportsPreview = false
 
 type PeekabooLinkProps = LinkProps &
   React.ComponentPropsWithoutRef<'a'> & {
@@ -72,10 +72,7 @@ export function PeekabooLink({
       <AnimatePresence mode="wait">
         {isOpen && (
           <HoverCard.Portal forceMount>
-            <HoverCard.Content
-              asChild
-              collisionPadding={250}
-            >
+            <HoverCard.Content asChild collisionPadding={250}>
               <motion.div
                 className="pointer-events-none relative z-50 w-[400px] origin-top overflow-hidden !p-0"
                 initial={{
