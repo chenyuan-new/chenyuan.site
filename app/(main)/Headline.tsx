@@ -3,8 +3,6 @@
 import { motion } from 'framer-motion'
 import Balancer from 'react-wrap-balancer'
 
-import { SparkleIcon, UserSecurityIcon } from '~/assets'
-import { PeekabooLink } from '~/components/links/PeekabooLink'
 import { SocialLink } from '~/components/links/SocialLink'
 
 function Developer() {
@@ -26,25 +24,7 @@ function Designer() {
         <span className="absolute -bottom-0.5 -left-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
         <span className="absolute -right-0.5 -top-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
       </span>
-      设计师
-    </span>
-  )
-}
-
-function OCD() {
-  return (
-    <span className="group">
-      <SparkleIcon className="mr-1 inline-flex transform-gpu transition-transform duration-500 group-hover:rotate-180" />
-      <span>细节控</span>
-    </span>
-  )
-}
-
-function Founder() {
-  return (
-    <span className="group">
-      <UserSecurityIcon className="mr-1 inline-flex group-hover:fill-zinc-600/20 dark:group-hover:fill-zinc-200/20" />
-      <span>创始人</span>
+      learner
     </span>
   )
 }
@@ -65,7 +45,6 @@ export function Headline() {
       >
         <Developer />，<Designer />，
         <br />
-        <OCD />，<Founder />
       </motion.h1>
       <motion.p
         className="mt-6 text-base text-zinc-600 dark:text-zinc-400"
@@ -80,10 +59,7 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 Cali，
-          <PeekabooLink href="https://zolplay.com">佐玩</PeekabooLink>
-          创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。
-          我热爱开发，设计，创新，享受生活，以及在未知领域中探索。
+          我是 chenyuan， 一名软件开发工程师， 热爱开发、阅读、探索未知。
         </Balancer>
       </motion.p>
       <motion.div
@@ -99,33 +75,33 @@ export function Headline() {
         }}
       >
         <SocialLink
-          href="https://cali.so/twitter"
+          href="https://chenyuan.site/twitter"
           aria-label="我的推特"
           platform="twitter"
         />
-        <SocialLink
-          href="https://cali.so/youtube"
+        {/* <SocialLink
+          href="https://chenyuan.site/youtube"
           aria-label="我的 YouTube"
           platform="youtube"
-        />
+        /> */}
         <SocialLink
-          href="https://cali.so/bilibili"
+          href="https://chenyuan.site/bilibili"
           aria-label="我的 Bilibili"
           platform="bilibili"
         />
         <SocialLink
-          href="https://cali.so/github"
+          href="https://chenyuan.site/github"
           aria-label="我的 GitHub"
           platform="github"
         />
-        <SocialLink
-          href="https://cali.so/tg"
+        {/* <SocialLink
+          href="https://chenyuan.site/tg"
           aria-label="我的 Telegram"
           platform="telegram"
-        />
+        /> */}
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
-          href="mailto:hi@cali.so"
+          href="mailto:cy911110@qq.com"
           aria-label="我的邮箱"
           platform="mail"
         />

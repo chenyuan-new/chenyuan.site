@@ -1,6 +1,6 @@
 ## 我的个人网站
 
-我的个人网站 [https://cali.so/](https://cali.so/) 的源代码。
+我的个人网站 [https://chenyuan.site](https://chenyuan.site) 的源代码, fork from [https://github.com/CaliCastle/cali.so](https://github.com/CaliCastle/cali.so)
 
 需要其他服务商的环境变量才能正常运行，所以如果你想要在本地运行，需要自己配置。
 
@@ -15,7 +15,8 @@
 - [Framer Motion](https://www.framer.com/motion/)
 - [Radix UI](https://www.radix-ui.com/)
 - [Clerk](https://clerk.com/)
-- [PlanetScale](https://planetscale.com/)
+- [PlanetScale](https://planetscale.com/) 开始收费了
+  - [ ] 更改为使用[Supabase](https://supabase.com/)
 - [Drizzle ORM](https://orm.drizzle.team/)
 - [Sanity](https://www.sanity.io/)
 - [React Email](https://react.email)
