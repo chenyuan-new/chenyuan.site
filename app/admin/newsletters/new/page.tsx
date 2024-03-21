@@ -42,7 +42,7 @@ export default function CreateNewsletterPage() {
     await resend.sendEmail({
       subject: data.subject,
       from: emailConfig.from,
-      to: 'cy911110@qq.com',
+      to: 'hello@chenyuan.site',
       reply_to: emailConfig.from,
       bcc: Array.from(subscriberEmails),
       react: NewslettersTemplate({

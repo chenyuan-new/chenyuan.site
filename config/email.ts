@@ -1,5 +1,5 @@
 export const emailConfig = {
-  from: 'cy911110@qq.com',
+  from: 'hello@chenyuan.site',
   baseUrl:
     process.env.VERCEL_ENV === 'production'
       ? `https://chenyuan.site`
