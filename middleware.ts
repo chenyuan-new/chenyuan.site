@@ -63,6 +63,7 @@ export default authMiddleware({
     '/about',
     '/rss',
     '/feed',
+    '/privacy',
     // '/ama',
   ],
 })
